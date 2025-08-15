@@ -8,8 +8,10 @@ import SterRating from "./SterRating";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <App /> */}
-    <SterRating maxRating={5} />
-    <SterRating maxRating={10} />
-    <SterRating />
+    <SterRating
+      maxRating={5}
+      messages={["Terrible", "Bad", "Okey", "Good", "Amazing"]}
+    />
+    <SterRating size={24} ClassName="test" />
   </StrictMode>
 );
