@@ -3,7 +3,7 @@ import styles from "./AppNav.module.css";
 
 function AppNav() {
   return (
-    <nav className={styles.nav}>
+    <nav className={styles.nav}> 
       <ul>
         <li>
           <NavLink to="cities">Cities</NavLink>
