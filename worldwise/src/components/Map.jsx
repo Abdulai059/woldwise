@@ -15,13 +15,13 @@ function Map() {
       <h1>
         Position: {lat}, {lng}
       </h1>
-      {/* <button
+      <button
         onClick={() => {
           setsearchParams({ lat: 23, lng: 50 });
         }}
       >
         change post
-      </button> */}
+      </button>
     </div>
   );
 }
