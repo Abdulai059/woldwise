@@ -56,8 +56,8 @@ function Form() {
         <Button type="primary">Add</Button>
         <Button
           type="back"
-          onClick={(e) => {
-            e.preventDefault();
+          onClick={() => {
+           
             navigate(-1);
           }}
         >
