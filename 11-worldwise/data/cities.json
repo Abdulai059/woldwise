@@ -37,28 +37,28 @@
       "id": 98443199
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
       "cityName": "Paris",
       "country": "France",
       "emoji": "🇫🇷",
-      "date": "2027-02-12T10:30:00.000Z",
-      "notes": "Beautiful city with amazing architecture 🗼",
+      "date": "2025-09-07T17:11:25.750Z",
+      "notes": "",
       "position": {
-        "lat": 48.8566,
-        "lng": 2.3522
+        "lat": "48.848857243506316",
+        "lng": "2.395357517136598"
       },
-      "id": 98443198
+      "id": 98443200
+    },
+    {
+      "cityName": "Menongue",
+      "country": "Angola",
+      "emoji": "🇦🇴",
+      "date": "2025-09-07T22:11:36.972Z",
+      "notes": "gt",
+      "position": {
+        "lat": "-15.835699488581517",
+        "lng": "17.930357439291722"
+      },
+      "id": 98443201
     }
   ]
 }
