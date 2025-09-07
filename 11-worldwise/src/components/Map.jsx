@@ -9,10 +9,10 @@ function Map() {
   // const navigate = useNavigate();
   const [ mapPosition]  = useState([40, 0]);
 
-  // const [searchParams, setsearchParams] = useSearchParams();
+  const [searchParams, setsearchParams] = useSearchParams();
 
-  // const lat = searchParams.get("lat");
-  // const lng = searchParams.get("lng");
+  const lat = searchParams.get("lat");
+  const lng = searchParams.get("lng");
 
   return (
     <div className={styles.mapContainer}>
