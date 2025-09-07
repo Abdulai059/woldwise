@@ -9,7 +9,6 @@ const CitiesContext = createContext();
 function CitiesProvider({ children }) {
   const [cities, setCities] = useState([]);
   const [isLoading, setIsLoading] = useState();
-
   const [currentCity, setCurrentCity] = useState({});
 
   useEffect(function () {
@@ -44,40 +43,34 @@ function CitiesProvider({ children }) {
     };
   }, []);
 
+ 
   async function getCity(id) {
-    const controller = new AbortController();
-
     try {
       setIsLoading(true);
 
-      const res = await fetch(`${BASE_URL}/${id}`, {
-        signal: controller.signal,
-      });
+      const res = await fetch(`${BASE_URL}/cities/${id}`);
 
-      if (!res.ok) throw new Error("Failed to fetch cities");
+      if (!res.ok) throw new Error("Failed to fetch city");
       const data = await res.json();
       setCurrentCity(data);
     } catch (err) {
       if (err.name === "AbortError") {
-        console.log("Fetch aborted  🚫");
+        console.log("Fetch aborted 🚫");
       } else {
         console.error("Fetch error:", err);
       }
     } finally {
       setIsLoading(false);
     }
-
-    return function () {
-      controller.abort();
-    };
   }
 
+  
   return (
     //2) PROVIDE VALUE OR CONTEXT TO THE CHILD COMPONENTS
     <CitiesContext.Provider value={{ cities, isLoading, getCity, currentCity }}>
       {children}
     </CitiesContext.Provider>
-  ); 
+  );
 }
 
 function useCities() {
