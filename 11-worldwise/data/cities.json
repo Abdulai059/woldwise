@@ -37,40 +37,64 @@
       "id": 98443199
     },
     {
-      "cityName": "Paris",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2025-09-07T17:11:25.750Z",
+      "cityName": "Olanguina",
+      "country": "Cameroon",
+      "emoji": "🇨🇲",
+      "date": "2025-09-08T21:12:11.064Z",
       "notes": "",
       "position": {
-        "lat": "48.848857243506316",
-        "lng": "2.395357517136598"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Hassi Fehal",
-      "country": "Algeria",
-      "emoji": "🇩🇿",
-      "date": "2025-09-08T05:37:52.861Z",
-      "notes": "",
-      "position": {
-        "lat": "31.26024502131686",
-        "lng": "4.245267269184297"
+        "lat": "4.023992917730798",
+        "lng": "12.04975816896557"
       },
       "id": 98443201
     },
     {
-      "cityName": "Cacolo",
-      "country": "Angola",
-      "emoji": "🇦🇴",
-      "date": "2025-09-08T05:38:02.250Z",
+      "cityName": "Koulamoutou",
+      "country": "Gabon",
+      "emoji": "🇬🇦",
+      "date": "2025-09-08T21:12:15.364Z",
       "notes": "",
       "position": {
-        "lat": "-10.484512679545814",
-        "lng": "18.916188741705326"
+        "lat": "-0.8729125416013873",
+        "lng": "11.891936355542505"
       },
       "id": 98443202
+    },
+    {
+      "cityName": "Kinshasa",
+      "country": "Congo (the Democratic Republic of the)",
+      "emoji": "🇨🇩",
+      "date": "2025-09-08T21:12:21.156Z",
+      "notes": "",
+      "position": {
+        "lat": "-4.209617183708258",
+        "lng": "15.829211985517045"
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "San Clemente",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-09-08T22:23:38.168Z",
+      "notes": "",
+      "position": {
+        "lat": "39.32177068998401",
+        "lng": "-2.4169921875000004"
+      },
+      "id": 98443204
+    },
+    {
+      "cityName": "Perales del Alfambra",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-09-08T22:27:03.001Z",
+      "notes": "",
+      "position": {
+        "lat": "40.677811022452744",
+        "lng": "-0.9228515625000001"
+      },
+      "id": 98443205
     }
   ]
 }
