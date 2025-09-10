@@ -3,7 +3,7 @@ import styles from "./City.module.css";
 import { useCities } from "../contexts/CitiesContext";
 import { useEffect } from "react";
 import Spinner from "./Spinner";
-import BackButton from "./BackButton";
+// import BackButton from "./BackButton";
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
@@ -21,7 +21,7 @@ function City() {
     function () {
       getCity(id);
     },
-    [id]
+    [id, getCity]
   );
 
   const { cityName, emoji, date, notes } = currentCity;
@@ -60,9 +60,9 @@ function City() {
         </a>
       </div>
 
-      <div>
+      {/* <div>
         <BackButton />
-      </div>
+      </div> */}
     </div>
   );
 }

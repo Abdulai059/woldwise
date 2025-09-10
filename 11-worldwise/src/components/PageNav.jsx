@@ -8,9 +8,9 @@ function PageNav() {
       <Logo />
 
       <ul>
-        <li>
+        {/* <li>
           <NavLink to="/">Home</NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink to="/product">Product</NavLink>
         </li>
