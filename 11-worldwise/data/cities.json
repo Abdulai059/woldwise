@@ -47,54 +47,6 @@
         "lng": "12.04975816896557"
       },
       "id": 98443201
-    },
-    {
-      "cityName": "Koulamoutou",
-      "country": "Gabon",
-      "emoji": "🇬🇦",
-      "date": "2025-09-08T21:12:15.364Z",
-      "notes": "",
-      "position": {
-        "lat": "-0.8729125416013873",
-        "lng": "11.891936355542505"
-      },
-      "id": 98443202
-    },
-    {
-      "cityName": "Kinshasa",
-      "country": "Congo (the Democratic Republic of the)",
-      "emoji": "🇨🇩",
-      "date": "2025-09-08T21:12:21.156Z",
-      "notes": "",
-      "position": {
-        "lat": "-4.209617183708258",
-        "lng": "15.829211985517045"
-      },
-      "id": 98443203
-    },
-    {
-      "cityName": "San Clemente",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-09-08T22:23:38.168Z",
-      "notes": "",
-      "position": {
-        "lat": "39.32177068998401",
-        "lng": "-2.4169921875000004"
-      },
-      "id": 98443204
-    },
-    {
-      "cityName": "Perales del Alfambra",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-09-08T22:27:03.001Z",
-      "notes": "",
-      "position": {
-        "lat": "40.677811022452744",
-        "lng": "-0.9228515625000001"
-      },
-      "id": 98443205
     }
   ]
 }
