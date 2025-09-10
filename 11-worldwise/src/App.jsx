@@ -18,14 +18,10 @@ import SpinnerFullPage from "./components/SpinnerFullPage";
 // import Login from "./pages/Login";
 // import AppLayout from "./pages/AppLayout";
 
-const delayImport = (importFunc, ms = 2000) =>
-  new Promise((resolve) => {
-    setTimeout(() => resolve(importFunc()), ms);
-  });
 
 const Homepage = lazy(() => import("./pages/Homepage"));
-const Product = lazy(() => delayImport(() => import("./pages/Product")));
-const Pricing = lazy(() => delayImport(() => import("./pages/Pricing")));
+const Product = lazy(() => import("./pages/Product"));
+const Pricing = lazy(() => import("./pages/Pricing"));
 const Login = lazy(() => import("./pages/Login"));
 const AppLayout = lazy(() => import("./pages/AppLayout"));
 const PageNotFound = lazy(() => import("./pages/PageNotFound"));
