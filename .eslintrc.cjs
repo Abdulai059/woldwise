@@ -3,7 +3,10 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['eslint:recommended', 'plugin:react/recommended'],
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended'
+  ],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
@@ -11,10 +14,10 @@ module.exports = {
   plugins: ['react'],
   settings: {
     react: {
-      version: 'detect', // Automatically detect React version
+      version: 'detect', // auto-detect React version
     },
   },
   rules: {
-    'react/react-in-jsx-scope': 'off', // disable old React import requirement
+    'react/react-in-jsx-scope': 'off', // ✅ disable old JSX scope rule
   },
 };
