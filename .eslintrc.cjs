@@ -9,5 +9,12 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
-  rules: {},
+  settings: {
+    react: {
+      version: 'detect', // Automatically detect React version
+    },
+  },
+  rules: {
+    'react/react-in-jsx-scope': 'off', // disable old React import requirement
+  },
 };
