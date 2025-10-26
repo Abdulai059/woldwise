@@ -17,7 +17,8 @@ module.exports = {
       version: 'detect', // auto-detect React version
     },
   },
-  rules: {
-    'react/react-in-jsx-scope': 'off', // ✅ disable old JSX scope rule
-  },
+ rules: {
+  'react/react-in-jsx-scope': 'off',
+  'react/prop-types': 'off', // disable PropTypes requirement globally
+},
 };
